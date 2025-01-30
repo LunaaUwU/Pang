@@ -1,0 +1,9 @@
+MENU:
+
+Arrows/WASD for select, enter/space to continue, esc for back
+
+GAME:
+
+Arrows/AD to move, space to shoot, esc to pause
+
+Enjoy!
