@@ -1,6 +1,6 @@
 MENU:
 
-Arrows/WASD for select, enter/space to continue, esc for back
+Arrows/WASD for select, space to continue, esc for back
 
 GAME:
 
