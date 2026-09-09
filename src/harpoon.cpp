@@ -33,7 +33,7 @@ void Harpoon::render(sf::RenderWindow& window) const
 void Harpoon::init() // Get all the sprites on start to avoid loading them every frame
 {
     m_harpoon.setSize(sf::Vector2f(34.f, 800.f));
-    m_harpoonTexture.loadFromFile("../sprites/harpoon.png");
+    m_harpoonTexture.loadFromFile("assets/sprites/harpoon.png");
     m_harpoon.setTexture(&m_harpoonTexture);
     m_harpoon.setPosition(sf::Vector2f(0.f, -2500.f));
     m_active = false;

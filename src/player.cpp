@@ -70,13 +70,13 @@ void Player::render(sf::RenderWindow & window) const
 void Player::init()
 {
     m_player.setSize(sf::Vector2f(128.f, 128.f));
-    m_playerMoveRTexture.loadFromFile("../sprites/Player/player_move_right.png");
+    m_playerMoveRTexture.loadFromFile("assets/sprites/Player/player_move_right.png");
     m_player.setTexture(&m_playerMoveRTexture);
     m_player.setPosition(sf::Vector2f(896.f, 752.f));
     
-    m_playerMoveLTexture.loadFromFile("../sprites/Player/player_move_left.png");
-    m_playerShootLTexture.loadFromFile("../sprites/Player/player_shoot_left.png");
-    m_playerShootRTexture.loadFromFile("../sprites/Player/player_shoot_right.png");
+    m_playerMoveLTexture.loadFromFile("assets/sprites/Player/player_move_left.png");
+    m_playerShootLTexture.loadFromFile("assets/sprites/Player/player_shoot_left.png");
+    m_playerShootRTexture.loadFromFile("assets/sprites/Player/player_shoot_right.png");
 
     harpoon->init();
 }

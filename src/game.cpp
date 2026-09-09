@@ -282,35 +282,35 @@ void Game::init()
     m_player->init();
 
     // load every menu as well as the win/game over sprites
-    m_gameOverTexture.loadFromFile("../sprites/game_over.png");
+    m_gameOverTexture.loadFromFile("assets/sprites/game_over.png");
     m_gameOverSprite.setTexture(m_gameOverTexture);
     m_gameOverSprite.setPosition(sf::Vector2f(0.f, 412.f));
 
-    m_winGameTexture.loadFromFile("../sprites/win_game.png");
+    m_winGameTexture.loadFromFile("assets/sprites/win_game.png");
     m_winGameSprite.setTexture(m_winGameTexture);
     m_winGameSprite.setPosition(sf::Vector2f(0.f, 412.f));
 
-    m_mainMenuPlayTexture.loadFromFile("../sprites/Menu/main_menu_play.png");
+    m_mainMenuPlayTexture.loadFromFile("assets/sprites/Menu/main_menu_play.png");
     m_mainMenuPlaySprite.setTexture(m_mainMenuPlayTexture);
     m_mainMenuPlaySprite.setPosition(sf::Vector2f(0.f, 0.f));
 
-    m_mainMenuQuitTexture.loadFromFile("../sprites/Menu/main_menu_quit.png");
+    m_mainMenuQuitTexture.loadFromFile("assets/sprites/Menu/main_menu_quit.png");
     m_mainMenuQuitSprite.setTexture(m_mainMenuQuitTexture);
     m_mainMenuQuitSprite.setPosition(sf::Vector2f(0.f, 0.f));
 
-    m_pauseResumeTexture.loadFromFile("../sprites/Menu/pause_resume.png");
+    m_pauseResumeTexture.loadFromFile("assets/sprites/Menu/pause_resume.png");
     m_pauseResumeSprite.setTexture(m_pauseResumeTexture);
     m_pauseResumeSprite.setPosition(sf::Vector2f(0.f, 284.f));
 
-    m_pauseQuitTexture.loadFromFile("../sprites/Menu/pause_quit.png");
+    m_pauseQuitTexture.loadFromFile("assets/sprites/Menu/pause_quit.png");
     m_pauseQuitSprite.setTexture(m_pauseQuitTexture);
     m_pauseQuitSprite.setPosition(sf::Vector2f(0.f, 284.f));
 
-    m_difficultyMediumTexture.loadFromFile("../sprites/Menu/difficulty_select_medium.png");
+    m_difficultyMediumTexture.loadFromFile("assets/sprites/Menu/difficulty_select_medium.png");
     m_difficultyMediumSprite.setTexture(m_difficultyMediumTexture);
     m_difficultyMediumSprite.setPosition(sf::Vector2f(0.f, 0.f));
 
-    m_difficultyHardTexture.loadFromFile("../sprites/Menu/difficulty_select_hard.png");
+    m_difficultyHardTexture.loadFromFile("assets/sprites/Menu/difficulty_select_hard.png");
     m_difficultyHardSprite.setTexture(m_difficultyHardTexture);
     m_difficultyHardSprite.setPosition(sf::Vector2f(0.f, 0.f));
 }

@@ -8,7 +8,7 @@ class BallPooler;
 
 struct PassiveTypes
 {
-	const char* fileNames[2] = { "../sprites/Passives/speed_player.png", "../sprites/Passives/speed_ball.png" };
+	const char* fileNames[2] = { "assets/sprites/Passives/speed_player.png", "assets/sprites/Passives/speed_ball.png" };
 };
 
 class Passive

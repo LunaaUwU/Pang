@@ -9,8 +9,8 @@ class PassivePooler;
 // depending on the ball size, it will have different characteristics, and they're stored here for easy use
 struct BallSizes
 {
-	const char* fileNames[4] = { "../sprites/Ball/big_ball.png", "../sprites/Ball/medium_big_ball.png",
-		"../sprites/Ball/medium_ball.png", "../sprites/Ball/small_ball.png" };
+	const char* fileNames[4] = { "assets/sprites/Ball/big_ball.png", "assets/sprites/Ball/medium_big_ball.png",
+		"assets/sprites/Ball/medium_ball.png", "assets/sprites/Ball/small_ball.png" };
 
 	const float sizeX[4] = { 256, 128, 64, 32 };
 	const float sizeY[4] = { 186, 89, 43, 26 };
